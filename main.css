@@ -1,0 +1,25 @@
+body {
+    background-image: url(/images/transparentbackground.png);
+    color: #500000;
+    padding-top: 50px; /* 50 px because thats the height of the navbar currently */
+}
+
+/* from trucks.css */
+.jumbotron {
+    color: #500000;
+    background-color: white;
+}
+
+#jumbo1 {
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* from map.css */
+#mapbody {
+    overflow-y: hidden;
+}
+
+#map {
+    margin: auto;
+}

@@ -10,7 +10,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/navbar-fixed-top.css" rel="stylesheet">
         <link href="navbar.css" rel="stylesheet">
-        <link href="index.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
     </head>
 
 
@@ -27,28 +27,18 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/">Truckie's Trucks</a>
+                        <a class="navbar-brand" href="/">
+                            <img src="/images/truckiefixed.png" alt="Truckie's Trucks" height="70" width="auto">
+                        </a>
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="map.html">Map</a></li>
-                            <li><a href="trucks.html">Trucks</a></li>
-                            <li><a href="Contact_Us.html">Contact Us</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="navbar-right active"><a href="signup.html">Signup</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
                 </div>
             </nav>
         </div>
     </div>
-    <div class="container" style="max-width: 600px; padding-top: 100px">
+    <div class="container" style="max-width: 600px; padding-top: 30px">
         <h1 class="text-center">Signup Here!</h1>
         <hr />
-        <button type="submit" class="btn btn-primary btn-block">Register with Facebook</button>
-        <h4 class="text-center">Or</h4>
-        <form>
+        <form action="trucks.html">
             <div class="form-group">
                 <label for="exampleInputEmail1"></label>
                 <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -62,8 +52,7 @@
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1"></label>
-                <input type="password" class="form-control" id="InputPassword" placeholder="Password">
-                <small id="passwordhelp" class="form-text text-muted">Minimum 8 Characters, one capital letter and one number</small>
+                <input type="password" class="form-control" id="InputPassword" placeholder="Password: minimum 8 Characters, one capital letter and one number">
             </div>
             <div class="form-group">
                 <label for="InputRepeatPassword"></label>
