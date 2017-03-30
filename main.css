@@ -1,5 +1,6 @@
 body {
     background-image: url(/images/transparentbackground.png);
+    background-repeat: repeat-y;
     color: #500000;
     padding-top: 50px; /* 50 px because thats the height of the navbar currently */
 }
@@ -7,7 +8,7 @@ body {
 /* from trucks.css */
 .jumbotron {
     color: #500000;
-    background-color: white;
+    background-color: transparent;
 }
 
 #jumbo1 {
@@ -22,4 +23,11 @@ body {
 
 #map {
     margin: auto;
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
 }
